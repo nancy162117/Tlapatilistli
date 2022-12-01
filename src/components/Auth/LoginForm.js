@@ -7,7 +7,10 @@ export default function LoginForm(props) {
     const { changeForm } = props;
     return (
         <View>
-
+            <TextInput
+                label="Email o Username"
+                style={formStyle.input}
+            />
 
             <Button
                 mode="contained"
