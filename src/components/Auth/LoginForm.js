@@ -16,13 +16,7 @@ export default function LoginForm(props) {
                 style={formStyle.input}
                 
             />
-            <Button
-                mode="contained"
-                style={formStyle.btnSucces}
-                
-            >
-                Entrar
-            </Button>
+
             <Button
                 mode="text"
                 style={formStyle.btnText}
