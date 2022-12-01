@@ -11,11 +11,7 @@ export default function LoginForm(props) {
                 label="Email o Username"
                 style={formStyle.input}
             />
-            <TextInput
-                label="Contraseña"
-                style={formStyle.input}
-                
-            />
+
             <Button
                 mode="contained"
                 style={formStyle.btnSucces}
